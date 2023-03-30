@@ -1,0 +1,22 @@
+p{
+	color: rgb(11, 10, 10);
+	font-size: 1.2em;
+	font-family: 'Courier New', Courier, monospace;
+}
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #0e1017;
+}
+h2{ 
+	font-family: arial;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #0a227f;
+}
+small{
+	color: blue;
+	font-size: 0.5em;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
