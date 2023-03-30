@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Formulários</h1>
+    <div class="ex1">
+        <h2>Exercicio 1</h2>
+        <form action="#">
+            <label for="">Numeros</label>
+            <input type="number"> <br>
+            <label for="">Nomes</label>
+            <input type="text"> <br>
+            <label for="">Data</label>
+            <input type="date"> <br>
+            <label for="">Senha</label>
+            <input type="password"> <br>
+            <label for="">Check</label>
+            <input type="checkbox"> <br>
+            <label for="">Botão</label>
+            <input type="button"> <br>
+            <label for="">Botão de enviar</label>
+            <input type="submit"> <br>
+            <label for="">Nivel satisfatório</label>
+            <input type="range">
+        </form>
+    </div>
+    <div class="ex2">
+        <h2>Exercicio 2</h2>
+        <form action="#">
+            <label>Nome</label>
+            <input type="text" required>
+            <br>
+            <label for="">Idade</label>
+            <input type="number" required>
+            <br>
+            <label>Nota</label>
+            <input type="number" required>
+            <br>
+            <input type="submit">
+            <br>
+        </form>
+    </div>
+    <div class="ex3">
+        <form>
+            <h2>Exercicio 3</h2>
+            <label for="">O aluno está:</label><br>
+            <!-- Conjunto de aprovado -->
+            <input type=radio name="status" id="Aprovado">
+            <label for="">Aprovado</label> <br>
+            <!-- Conjunto de reprovado  -->
+            <input type="radio" name="status" id="Reprovado">
+            <label for="">Reprovado</label> <br>
+            <!-- Conjunto de recuperação -->
+            <input type="radio" name="status" id="Recuperação">
+            <label for="">Recuperação</label> <br>
+        </form>
+    </div>
+    <form>
+        <div class="ex4">
+            <h2>Exercicio 4</h2>
+            <label for="">Exercicios concluidos:</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Tarefa 1</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Tarefa 2</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Tarefa 3</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Tarefa 4</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Tarefa 5</label><br>
+    </form>
+    </div>
+    <div class="ex5">
+        <h2>Exercicio 5</h2>
+        <!-- barra de "satisfação" -->
+        <form action="#">
+            <label for="">Gostou do curso?</label><br>
+            <label for="">Sim</label>
+            <input type="range">
+            <label for="">Não</label>
+        </form>
+    </div>
+    <div class="ex6">
+        <h2>Exercicio 6</h2>
+        <!-- Lista Suspença -->
+        <form action="#">
+            <label>Selecione a Instituição</label><br>
+            <select name="" id="">
+                <option value="">IOS</option>
+                <option value="">PROA</option>
+                <option value="">Generation</option>
+                <option value="">Recod</option>
+            </select>
+        </form>
+    </div>
+    <div class="ex7">
+        <h2>Exercicio 7</h2>
+        <!-- data list -->
+        <form action="">
+            <label for="">Selecione sua comida preferida:</label><br>
+            <input type="text" list="Comida">
+            <datalist id="Comida">
+                <option value="Pizza"></option>
+                <option value="Comida Japonesa">Comida Japonesa</option>
+                <option value="Hamburguer">Hamburguer</option>
+                <option value="Comida mexicana">Comida mexicana</option>
+                <option value="Poke">Poke</option>
+            </datalist>
+        </form>
+    </div>
+    <!-- text area -->
+    <div class="ex8">
+        <form action="">
+            <h2>Exercicios 8</h2>
+            <label for="">Deixe seu comentario:</label><br>
+            <textarea name="" id="" placeholder="Digite aqui:" cols="30" rows="5"></textarea> </textarea>
+        </form>
+    </div>
+</body>
+
+</html>
