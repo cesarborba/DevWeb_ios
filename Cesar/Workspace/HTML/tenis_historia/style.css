@@ -1,19 +1,24 @@
-.nav ul li {
-   display: inline;
-   font-family;: Verdana, Geneva, Tahoma, sans-serif;
-}
-.nav a {
-    color: black;
-}
 h1,h2,p { 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+aside{
+    background-color: orange;
+    display: flex 1;
+    height: 20%;
+}
+main {
+    background-color: gray;
+    height: 80%;
 }
 header {
-   margin: 50px;
+    background-color: azure;
+    margin: 20px;
+    display:flex 1;
 }
-body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,21,194,1) 0%, rgba(245,246,246,0.6944444444444444) 0%, rgba(57,55,113,1) 100%);
-
+footer {
+    margin: 5%;
+    background-color: gray;
 }
-.title {
+body{
+    background-color: beige;
+}
